@@ -3031,6 +3031,220 @@
         "name": "roll_dash6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "musica-ambiental-nivel-2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "musica-ambiental-nivel-2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "subidaEscalera.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "subidaEscalera.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "subidaEscalera1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "subidaEscalera1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "subidaEscalera2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "subidaEscalera2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "subidaEscalera3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "subidaEscalera3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/updown_escaleras.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/updown_escaleras.png\"}",
+        "name": "updown_escaleras",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/updown_escaleras2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/updown_escaleras2.png\"}",
+        "name": "updown_escaleras2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/updown_escaleras3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/updown_escaleras3.png\"}",
+        "name": "updown_escaleras3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/updown_escaleras4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "updown_escaleras4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/updown_escaleras5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "updown_escaleras5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/updown_escaleras6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "updown_escaleras6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "disparo-escopeta.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "disparo-escopeta.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "derrota-enemigo-regular.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "derrota-enemigo-regular.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "topoBasic.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "topoBasic.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "dbf01fe0-ea1c-47f3-ab05-6d14cfe09c03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dbf01fe0-ea1c-47f3-ab05-6d14cfe09c03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topo_golpeado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topo_golpeado",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "topoGolpeado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "topoGolpeado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "topoGolpeado1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "topoGolpeado1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topo_golpeado2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topo_golpeado2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topo_golpeado3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topo_golpeado3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/topo_golpeado4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "topo_golpeado4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "aterrizaje.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "aterrizaje.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correr.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correr.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "alerta-corta.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "alerta-corta.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Subiendo escalera - climbing ladder (efecto de sonido - sound effects).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Subiendo escalera - climbing ladder (efecto de sonido - sound effects).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -3246,7 +3460,6 @@
           "JumpButton": "A"
         },
         {
-          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "jumpSpeed": 600,
@@ -12493,6 +12706,283 @@
               ]
             }
           ]
+        },
+        {
+          "name": "updown_escaleras",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "updown_escaleras4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 173.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 132.5
+                      },
+                      {
+                        "x": 34.5,
+                        "y": 95.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 68
+                      },
+                      {
+                        "x": 52,
+                        "y": 45
+                      },
+                      {
+                        "x": 100,
+                        "y": 35
+                      },
+                      {
+                        "x": 141,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 89.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 146.5
+                      },
+                      {
+                        "x": 169,
+                        "y": 155.5
+                      },
+                      {
+                        "x": 167,
+                        "y": 189.5
+                      },
+                      {
+                        "x": 120.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 156.5,
+                        "y": 247.5
+                      },
+                      {
+                        "x": 92.5,
+                        "y": 247
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 246.5
+                      },
+                      {
+                        "x": 46,
+                        "y": 203
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "updown_escaleras5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 173.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 132.5
+                      },
+                      {
+                        "x": 34.5,
+                        "y": 95.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 68
+                      },
+                      {
+                        "x": 52,
+                        "y": 45
+                      },
+                      {
+                        "x": 100,
+                        "y": 35
+                      },
+                      {
+                        "x": 141,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 89.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 146.5
+                      },
+                      {
+                        "x": 169,
+                        "y": 155.5
+                      },
+                      {
+                        "x": 167,
+                        "y": 189.5
+                      },
+                      {
+                        "x": 120.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 156.5,
+                        "y": 247.5
+                      },
+                      {
+                        "x": 92.5,
+                        "y": 247
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 246.5
+                      },
+                      {
+                        "x": 46,
+                        "y": 203
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "updown_escaleras6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 173.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 132.5
+                      },
+                      {
+                        "x": 34.5,
+                        "y": 95.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 68
+                      },
+                      {
+                        "x": 52,
+                        "y": 45
+                      },
+                      {
+                        "x": 100,
+                        "y": 35
+                      },
+                      {
+                        "x": 141,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 89.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 134.5,
+                        "y": 146.5
+                      },
+                      {
+                        "x": 169,
+                        "y": 155.5
+                      },
+                      {
+                        "x": 167,
+                        "y": 189.5
+                      },
+                      {
+                        "x": 120.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 156.5,
+                        "y": 247.5
+                      },
+                      {
+                        "x": 92.5,
+                        "y": 247
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 246.5
+                      },
+                      {
+                        "x": 46,
+                        "y": 203
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -12741,6 +13231,12 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
@@ -14328,6 +14824,36 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "detectado13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "topo_golpeado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "topo_golpeado4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -23013,6 +23539,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -23064,7 +23594,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.263645767377083,
+        "zoomFactor": 0.39251611754882226,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -23363,8 +23893,8 @@
           "name": "garrote",
           "persistentUuid": "2f828f10-db5b-427a-8ecc-7b66b0a8559d",
           "width": 0,
-          "x": 2003,
-          "y": 180,
+          "x": 3155,
+          "y": 209,
           "zOrder": 100018,
           "numberProperties": [],
           "stringProperties": [],
@@ -23464,8 +23994,8 @@
           "name": "escopeta",
           "persistentUuid": "a2ed0ad0-7073-40bd-899e-c6c873038b6b",
           "width": 0,
-          "x": 3150,
-          "y": 194,
+          "x": 1936,
+          "y": 206,
           "zOrder": 100024,
           "numberProperties": [],
           "stringProperties": [],
@@ -23757,6 +24287,23 @@
           "x": 14891,
           "y": -112,
           "zOrder": 100028,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 131,
+          "keepRatio": true,
+          "layer": "",
+          "name": "enemigo",
+          "persistentUuid": "e27123cb-55c4-450d-b343-e77660126b74",
+          "width": 93,
+          "x": 4824,
+          "y": 472,
+          "zOrder": 100023,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24663,6 +25210,12 @@
                     "haciendo_dash",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -24673,6 +25226,18 @@
                   "parameters": [
                     "Jugador",
                     "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "aterrizaje.mp3",
+                    "",
+                    "70",
+                    "1"
                   ]
                 }
               ]
@@ -24766,6 +25331,12 @@
                     "",
                     "\"Space\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -24805,6 +25376,18 @@
                   "parameters": [
                     "Jugador",
                     "\"dash_cd\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "correr.mp3",
+                    "",
+                    "70",
+                    "1"
                   ]
                 }
               ],
@@ -27845,11 +28428,30 @@
                         "x",
                         "\"x\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "disparo-escopeta.mp3",
+                    "",
+                    "70",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -27948,6 +28550,12 @@
                         "",
                         "no"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -27961,6 +28569,18 @@
                         "1",
                         "no",
                         "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "derrota-enemigo-regular.mp3",
+                        "",
+                        "70",
+                        "1"
                       ]
                     },
                     {
@@ -28510,6 +29130,12 @@
                         "<",
                         "enemigo.CenterX()"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -28669,6 +29295,18 @@
                         "Animation",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "alerta-corta.mp3",
+                        "",
+                        "70",
+                        "1"
                       ]
                     }
                   ]
@@ -31605,6 +32243,101 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Musica",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "musica-ambiental-nivel-2.mp3",
+                    "yes",
+                    "60",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "sonido/animacion escalera"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnLadder"
+              },
+              "parameters": [
+                "Jugador",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Jugador",
+                "Animation",
+                "=",
+                "\"updown_escaleras\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Subiendo escalera - climbing ladder (efecto de sonido - sound effects).mp3",
+                "",
+                "70",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -31700,6 +32433,49 @@
                 "CameraX(\"\", 0) * 0.6",
                 "\"intermedia\"",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ocultar plataformas"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "plataforma"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "pared"
               ]
             }
           ]
@@ -31947,7 +32723,7 @@
           "isLocked": false,
           "name": "exterior_edificios",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -32142,6 +32918,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
         },
         {
           "name": "Platform",
