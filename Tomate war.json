@@ -3245,6 +3245,54 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Trampa de pinchos metálica pixel art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trampa de pinchos metálica pixel art.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trampa de pinchos metálica pixel art.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Trampa de pinchos metálica pixel art",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Trampa de pinchos metálica pixel art2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trampa de pinchos metálica pixel art2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trampa de pinchos metálica pixel art2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Trampa de pinchos metálica pixel art2.png\"}",
+        "name": "Trampa de pinchos metálica pixel art2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trampa de pinchos metálica pixel art3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Trampa de pinchos metálica pixel art3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Trampa de pinchos metálica pixel art4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Trampa de pinchos metálica pixel art4",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -14992,6 +15040,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "pinchos",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Trampa de pinchos metálica pixel art",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Trampa de pinchos metálica pixel art4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 129,
+                        "y": 0
+                      },
+                      {
+                        "x": 129,
+                        "y": 64
+                      },
+                      {
+                        "x": 9,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -15022,6 +15131,9 @@
             "objectName": "Jugador"
           }
         ]
+      },
+      {
+        "objectName": "pinchos"
       },
       {
         "objectName": "plataforma"
@@ -15074,7 +15186,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39251611754882226,
+        "zoomFactor": 0.7876290101673766,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -15787,6 +15899,86 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pinchos",
+          "persistentUuid": "cb9420ce-cc32-49b5-9adc-636df46acfbe",
+          "width": 0,
+          "x": 5448,
+          "y": 561,
+          "zOrder": 100029,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pinchos",
+          "persistentUuid": "e8f5f6dc-c975-4ed0-b2d7-ad267c411ef9",
+          "width": 0,
+          "x": 5566,
+          "y": 560,
+          "zOrder": 100030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pinchos",
+          "persistentUuid": "5b86883b-01b3-42a4-97e0-0e39420e3508",
+          "width": 0,
+          "x": 5683,
+          "y": 560,
+          "zOrder": 100031,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pinchos",
+          "persistentUuid": "331de550-deb8-4c7b-bcaa-f3cd1eeb3fc5",
+          "width": 0,
+          "x": 5800,
+          "y": 560,
+          "zOrder": 100032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pinchos",
+          "persistentUuid": "07bccb00-e62e-45bd-82cf-6d1ef3559e1d",
+          "width": 0,
+          "x": 5916,
+          "y": 560,
+          "zOrder": 100033,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16186,7 +16378,7 @@
           "content": {
             "radius": 120,
             "color": "255;255;255",
-            "debugMode": true,
+            "debugMode": false,
             "texture": "New image"
           }
         },
@@ -19927,7 +20119,7 @@
                     "",
                     "disparo-escopeta.mp3",
                     "",
-                    "70",
+                    "20",
                     "1"
                   ]
                 }
@@ -23956,6 +24148,121 @@
               },
               "parameters": [
                 "pared"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "colisión con pincho DE PRUEBA, el jugador no puede omitirlo usando roll/dash"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Jugador",
+                "pinchos",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Jugador",
+                "Health",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Jugador",
+                "haciendo_dash",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Jugador",
+                "PlatformerObject",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "Jugador",
+                "PlatformerObject",
+                "=",
+                "1000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Cuando el jugador muere y pasa fade in, se reinicia nivel"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "fade_negro",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel 1\"",
+                ""
               ]
             }
           ]
