@@ -2558,7 +2558,7 @@
       {
         "file": "assets/imagenes/Jefe2_vencido.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Jefe2_vencido.png\"}",
         "name": "Jefe2_vencido",
         "smoothed": true,
         "userAdded": false
@@ -2566,7 +2566,7 @@
       {
         "file": "assets/imagenes/Jefe2_vencido2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Jefe2_vencido2.png\"}",
         "name": "Jefe2_vencido2",
         "smoothed": true,
         "userAdded": false
@@ -2574,7 +2574,7 @@
       {
         "file": "assets/imagenes/Jefe2_vencido3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Jefe2_vencido3.png\"}",
         "name": "Jefe2_vencido3",
         "smoothed": true,
         "userAdded": false
@@ -2582,7 +2582,7 @@
       {
         "file": "assets/imagenes/Jefe2_vencido4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Jefe2_vencido4.png\"}",
         "name": "Jefe2_vencido4",
         "smoothed": true,
         "userAdded": false
@@ -2590,7 +2590,7 @@
       {
         "file": "assets/imagenes/Jefe2_vencido5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Jefe2_vencido5.png\"}",
         "name": "Jefe2_vencido5",
         "smoothed": true,
         "userAdded": false
@@ -2598,7 +2598,7 @@
       {
         "file": "assets/imagenes/Jefe2_vencido6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Jefe2_vencido6.png\"}",
         "name": "Jefe2_vencido6",
         "smoothed": true,
         "userAdded": false
@@ -2704,6 +2704,54 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "acido18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jefe_exhausto.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jefe_exhausto",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jefe_exhausto2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jefe_exhausto2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jefe_exhausto3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jefe_exhausto3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jefe_exhausto4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jefe_exhausto4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jefe_exhausto5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jefe_exhausto5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jefe_exhausto6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jefe_exhausto6",
         "smoothed": true,
         "userAdded": false
       }
@@ -17011,6 +17059,26 @@
           "persistentUuid": "84ef7725-3265-4731-88e2-2816e3dc3d62",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "muerte_pies_y",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "muerte_centro_x",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "muerte_ancho",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "muerte_alto",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -17791,7 +17859,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "jefe_lvl_1_muerte_01.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 150,
+                      "y": 300
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -17827,7 +17901,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "jefe_lvl_1_muerte_02.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 150,
+                      "y": 300
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -17863,7 +17943,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "jefe_lvl_1_muerte_03.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 150,
+                      "y": 300
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -17899,7 +17985,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "jefe_lvl_1_muerte_04.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 150,
+                      "y": 300
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -18188,6 +18280,30 @@
           "persistentUuid": "f34af9ec-824d-4cd3-b654-a0b45a6031a7",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "muerte_pies_y",
+          "persistentUuid": "15f3ff6d-7091-4ba5-a332-8a27b09a99bd",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "muerte_centro_x",
+          "persistentUuid": "a8abd7e3-d35f-4d4a-90fa-04117ec85f23",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "muerte_ancho",
+          "persistentUuid": "63486f2a-c192-499c-accd-eb2268fc5c73",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "muerte_alto",
+          "persistentUuid": "8698f92d-bd38-4c70-9775-5fc9ed6d086c",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -18195,9 +18311,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 75,
+          "Health": 90,
           "CurrentHealth": 0,
-          "MaxHealth": 75,
+          "MaxHealth": 90,
           "DamageCooldown": 0.56,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
@@ -19027,11 +19143,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Jefe2_vencido",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 190,
+                      "y": 371
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": -92,
-                    "y": -275
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -19042,20 +19164,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": -32,
-                        "y": -205
+                        "x": 363,
+                        "y": 370
                       },
                       {
-                        "x": 218,
-                        "y": -205
+                        "x": 343,
+                        "y": 293
                       },
                       {
-                        "x": 218,
-                        "y": 125
+                        "x": 213,
+                        "y": 235
                       },
                       {
-                        "x": -32,
-                        "y": 125
+                        "x": 109,
+                        "y": 271
+                      },
+                      {
+                        "x": 11,
+                        "y": 288
+                      },
+                      {
+                        "x": 3,
+                        "y": 371
                       }
                     ]
                   ]
@@ -19063,11 +19193,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Jefe2_vencido2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 190,
+                      "y": 371
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": -92,
-                    "y": -275
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -19078,20 +19214,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": -32,
-                        "y": -205
+                        "x": 363,
+                        "y": 370
                       },
                       {
-                        "x": 218,
-                        "y": -205
+                        "x": 343,
+                        "y": 293
                       },
                       {
-                        "x": 218,
-                        "y": 125
+                        "x": 213,
+                        "y": 235
                       },
                       {
-                        "x": -32,
-                        "y": 125
+                        "x": 109,
+                        "y": 271
+                      },
+                      {
+                        "x": 11,
+                        "y": 288
+                      },
+                      {
+                        "x": 3,
+                        "y": 371
                       }
                     ]
                   ]
@@ -19099,11 +19243,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Jefe2_vencido3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 190,
+                      "y": 371
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": -92,
-                    "y": -275
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -19114,20 +19264,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": -32,
-                        "y": -205
+                        "x": 363,
+                        "y": 370
                       },
                       {
-                        "x": 218,
-                        "y": -205
+                        "x": 343,
+                        "y": 293
                       },
                       {
-                        "x": 218,
-                        "y": 125
+                        "x": 213,
+                        "y": 235
                       },
                       {
-                        "x": -32,
-                        "y": 125
+                        "x": 109,
+                        "y": 271
+                      },
+                      {
+                        "x": 11,
+                        "y": 288
+                      },
+                      {
+                        "x": 3,
+                        "y": 371
                       }
                     ]
                   ]
@@ -19135,11 +19293,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Jefe2_vencido4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 190,
+                      "y": 371
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": -92,
-                    "y": -275
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -19150,20 +19314,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": -32,
-                        "y": -205
+                        "x": 363,
+                        "y": 370
                       },
                       {
-                        "x": 218,
-                        "y": -205
+                        "x": 343,
+                        "y": 293
                       },
                       {
-                        "x": 218,
-                        "y": 125
+                        "x": 213,
+                        "y": 235
                       },
                       {
-                        "x": -32,
-                        "y": 125
+                        "x": 109,
+                        "y": 271
+                      },
+                      {
+                        "x": 11,
+                        "y": 288
+                      },
+                      {
+                        "x": 3,
+                        "y": 371
                       }
                     ]
                   ]
@@ -19171,11 +19343,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Jefe2_vencido5",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 190,
+                      "y": 371
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": -92,
-                    "y": -275
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -19186,20 +19364,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": -32,
-                        "y": -205
+                        "x": 363,
+                        "y": 370
                       },
                       {
-                        "x": 218,
-                        "y": -205
+                        "x": 343,
+                        "y": 293
                       },
                       {
-                        "x": 218,
-                        "y": 125
+                        "x": 213,
+                        "y": 235
                       },
                       {
-                        "x": -32,
-                        "y": 125
+                        "x": 109,
+                        "y": 271
+                      },
+                      {
+                        "x": 11,
+                        "y": 288
+                      },
+                      {
+                        "x": 3,
+                        "y": 371
                       }
                     ]
                   ]
@@ -19207,11 +19393,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Jefe2_vencido6",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "apoyo_muerte",
+                      "x": 190,
+                      "y": 371
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": -92,
-                    "y": -275
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -19222,20 +19414,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": -32,
-                        "y": -205
+                        "x": 363,
+                        "y": 370
                       },
                       {
-                        "x": 218,
-                        "y": -205
+                        "x": 343,
+                        "y": 293
                       },
                       {
-                        "x": 218,
-                        "y": 125
+                        "x": 213,
+                        "y": 235
                       },
                       {
-                        "x": -32,
-                        "y": 125
+                        "x": 109,
+                        "y": 271
+                      },
+                      {
+                        "x": 11,
+                        "y": 288
+                      },
+                      {
+                        "x": 3,
+                        "y": 371
                       }
                     ]
                   ]
@@ -19608,20 +19808,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19644,20 +19860,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19680,20 +19912,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19716,20 +19964,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19752,20 +20016,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19788,20 +20068,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19824,20 +20120,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19860,20 +20172,36 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 73,
+                        "y": 242
+                      },
+                      {
                         "x": 119,
                         "y": 70
                       },
                       {
-                        "x": 369,
-                        "y": 70
+                        "x": 296,
+                        "y": 4
                       },
                       {
-                        "x": 369,
-                        "y": 400
+                        "x": 452,
+                        "y": 72
                       },
                       {
-                        "x": 119,
-                        "y": 400
+                        "x": 470,
+                        "y": 220
+                      },
+                      {
+                        "x": 396,
+                        "y": 384
+                      },
+                      {
+                        "x": 265,
+                        "y": 387
+                      },
+                      {
+                        "x": 16,
+                        "y": 392
                       }
                     ]
                   ]
@@ -19893,7 +20221,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Jefe_nivel_9",
+                  "image": "Jefe_exhausto",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19909,27 +20237,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 60.0,
-                        "y": 70.0
+                        "x": 39,
+                        "y": 40.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 70.0
+                        "x": 294,
+                        "y": 14.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 400.0
+                        "x": 309,
+                        "y": 379.5
                       },
                       {
-                        "x": 60.0,
-                        "y": 400.0
+                        "x": 14,
+                        "y": 381.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Jefe_nivel_10",
+                  "image": "Jefe_exhausto2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19945,27 +20273,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 60.0,
-                        "y": 70.0
+                        "x": 39,
+                        "y": 40.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 70.0
+                        "x": 294,
+                        "y": 14.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 400.0
+                        "x": 309,
+                        "y": 379.5
                       },
                       {
-                        "x": 60.0,
-                        "y": 400.0
+                        "x": 14,
+                        "y": 381.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Jefe_nivel_11",
+                  "image": "Jefe_exhausto3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19981,27 +20309,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 60.0,
-                        "y": 70.0
+                        "x": 39,
+                        "y": 40.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 70.0
+                        "x": 294,
+                        "y": 14.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 400.0
+                        "x": 309,
+                        "y": 379.5
                       },
                       {
-                        "x": 60.0,
-                        "y": 400.0
+                        "x": 14,
+                        "y": 381.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Jefe_nivel_12",
+                  "image": "Jefe_exhausto4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20017,27 +20345,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 60.0,
-                        "y": 70.0
+                        "x": 39,
+                        "y": 40.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 70.0
+                        "x": 294,
+                        "y": 14.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 400.0
+                        "x": 309,
+                        "y": 379.5
                       },
                       {
-                        "x": 60.0,
-                        "y": 400.0
+                        "x": 14,
+                        "y": 381.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Jefe_nivel_13",
+                  "image": "Jefe_exhausto5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20053,27 +20381,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 60.0,
-                        "y": 70.0
+                        "x": 39,
+                        "y": 40.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 70.0
+                        "x": 294,
+                        "y": 14.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 400.0
+                        "x": 309,
+                        "y": 379.5
                       },
                       {
-                        "x": 60.0,
-                        "y": 400.0
+                        "x": 14,
+                        "y": 381.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Jefe_nivel_14",
+                  "image": "Jefe_exhausto6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20089,20 +20417,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 60.0,
-                        "y": 70.0
+                        "x": 39,
+                        "y": 40.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 70.0
+                        "x": 294,
+                        "y": 14.5
                       },
                       {
-                        "x": 310.0,
-                        "y": 400.0
+                        "x": 309,
+                        "y": 379.5
                       },
                       {
-                        "x": 60.0,
-                        "y": 400.0
+                        "x": 14,
+                        "y": 381.5
                       }
                     ]
                   ]
@@ -37688,7 +38016,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8670102015797607,
+        "zoomFactor": 0.1185334028868793,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -37839,8 +38167,8 @@
           "name": "Jugador",
           "persistentUuid": "68159fa6-9f5a-429b-9e20-f3b4d80c0ba5",
           "width": 89,
-          "x": 10075,
-          "y": 123,
+          "x": 36,
+          "y": 469,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -59852,6 +60180,50 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "muerte_pies_y",
+                        "=",
+                        "Grupo_jefes.Y() + Grupo_jefes.Height()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "muerte_centro_x",
+                        "=",
+                        "Grupo_jefes.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "muerte_ancho",
+                        "=",
+                        "Grupo_jefes.Width()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "muerte_alto",
+                        "=",
+                        "Grupo_jefes.Height()"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetStringObjectVariable"
                       },
                       "parameters": [
@@ -59941,6 +60313,89 @@
                         "0.25",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "PlatformerObject",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "PlatformerObject",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "Animation"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "Resizable",
+                        "=",
+                        "Grupo_jefes.Variable(muerte_ancho)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "Resizable",
+                        "=",
+                        "Grupo_jefes.Variable(muerte_alto)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "=",
+                        "Grupo_jefes.Variable(muerte_centro_x) - Grupo_jefes.Width() / 2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "=",
+                        "Grupo_jefes.Y() + Grupo_jefes.Variable(muerte_pies_y) - Grupo_jefes.PointY(\"apoyo_muerte\")"
+                      ]
                     }
                   ]
                 },
@@ -59991,6 +60446,93 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Grupo_jefes",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "estado",
+                        "=",
+                        "\"muriendo\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes",
+                        "estado",
+                        "=",
+                        "\"muerto\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Grupo_jefes",
+                    "Resizable",
+                    "=",
+                    "Grupo_jefes.Variable(muerte_ancho)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Grupo_jefes",
+                    "Resizable",
+                    "=",
+                    "Grupo_jefes.Variable(muerte_alto)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Grupo_jefes",
+                    "=",
+                    "Grupo_jefes.Variable(muerte_centro_x) - Grupo_jefes.Width() / 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Grupo_jefes",
+                    "=",
+                    "Grupo_jefes.Y() + Grupo_jefes.Variable(muerte_pies_y) - Grupo_jefes.PointY(\"apoyo_muerte\")"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -63115,6 +63657,50 @@
                           "actions": [
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "muerte_pies_y",
+                                "=",
+                                "Grupo_jefes_nivel_2.Y() + Grupo_jefes_nivel_2.Height()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "muerte_centro_x",
+                                "=",
+                                "Grupo_jefes_nivel_2.CenterX()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "muerte_ancho",
+                                "=",
+                                "Grupo_jefes_nivel_2.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "muerte_alto",
+                                "=",
+                                "Grupo_jefes_nivel_2.Height()"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetStringObjectVariable"
                               },
                               "parameters": [
@@ -63144,17 +63730,6 @@
                                 "Animation",
                                 "=",
                                 "Grupo_jefes_nivel_2.VariableString(anim_muerte)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetHeight"
-                              },
-                              "parameters": [
-                                "Grupo_jefes_nivel_2",
-                                "Resizable",
-                                "=",
-                                "Grupo_jefes_nivel_2.Variable(altura_base) * 125 / 400"
                               ]
                             },
                             {
@@ -63224,6 +63799,89 @@
                                 "1",
                                 "0.25",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "PlatformerObject",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "PlatformerObject",
+                                "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "Animation"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "Resizable",
+                                "=",
+                                "Grupo_jefes_nivel_2.Variable(muerte_ancho)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "Resizable",
+                                "=",
+                                "Grupo_jefes_nivel_2.Variable(muerte_alto)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "=",
+                                "Grupo_jefes_nivel_2.Variable(muerte_centro_x) - Grupo_jefes_nivel_2.Width() / 2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_2",
+                                "=",
+                                "Grupo_jefes_nivel_2.Y() + Grupo_jefes_nivel_2.Variable(muerte_pies_y) - Grupo_jefes_nivel_2.PointY(\"apoyo_muerte\")"
                               ]
                             }
                           ]
@@ -65579,16 +66237,27 @@
             },
             {
               "type": {
-                "value": "Health::Health::IsDead"
+                "value": "StringObjectVariable"
               },
               "parameters": [
                 "Grupo_jefes_nivel_2",
-                "Health",
-                ""
+                "estado",
+                "=",
+                "\"muerto\""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "CameraShake::StopShaking"
+              },
+              "parameters": [
+                "",
+                "0",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -65597,150 +66266,6 @@
                 "Jefe2CamaraLiberada",
                 "True",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalX0)",
-                "\"\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalY0)",
-                "\"\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalX1)",
-                "\"Vegetación\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalY1)",
-                "\"Vegetación\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalX2)",
-                "\"Lighting\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalY2)",
-                "\"Lighting\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalX3)",
-                "\"interior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalY3)",
-                "\"interior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalX4)",
-                "\"exterior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalY4)",
-                "\"exterior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalX5)",
-                "\"intermedia\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe2CamaraOriginalY5)",
-                "\"intermedia\"",
-                "0"
               ]
             },
             {
@@ -66114,6 +66639,93 @@
                   "parameters": [
                     "acido",
                     ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Grupo_jefes_nivel_2",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes_nivel_2",
+                        "estado",
+                        "=",
+                        "\"muriendo\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes_nivel_2",
+                        "estado",
+                        "=",
+                        "\"muerto\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_2",
+                    "Resizable",
+                    "=",
+                    "Grupo_jefes_nivel_2.Variable(muerte_ancho)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_2",
+                    "Resizable",
+                    "=",
+                    "Grupo_jefes_nivel_2.Variable(muerte_alto)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_2",
+                    "=",
+                    "Grupo_jefes_nivel_2.Variable(muerte_centro_x) - Grupo_jefes_nivel_2.Width() / 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_2",
+                    "=",
+                    "Grupo_jefes_nivel_2.Y() + Grupo_jefes_nivel_2.Variable(muerte_pies_y) - Grupo_jefes_nivel_2.PointY(\"apoyo_muerte\")"
                   ]
                 }
               ]
@@ -68347,6 +68959,50 @@
                           "actions": [
                             {
                               "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "muerte_pies_y",
+                                "=",
+                                "Grupo_jefes_nivel_1.Y() + Grupo_jefes_nivel_1.Height()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "muerte_centro_x",
+                                "=",
+                                "Grupo_jefes_nivel_1.CenterX()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "muerte_ancho",
+                                "=",
+                                "Grupo_jefes_nivel_1.Width()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "muerte_alto",
+                                "=",
+                                "Grupo_jefes_nivel_1.Height()"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetStringObjectVariable"
                               },
                               "parameters": [
@@ -68436,6 +69092,89 @@
                                 "0.25",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "PlatformerObject",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "PlatformerObject",
+                                "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "Animation"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "Resizable",
+                                "=",
+                                "Grupo_jefes_nivel_1.Variable(muerte_ancho)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "Resizable",
+                                "=",
+                                "Grupo_jefes_nivel_1.Variable(muerte_alto)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetX"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "=",
+                                "Grupo_jefes_nivel_1.Variable(muerte_centro_x) - Grupo_jefes_nivel_1.Width() / 2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetY"
+                              },
+                              "parameters": [
+                                "Grupo_jefes_nivel_1",
+                                "=",
+                                "Grupo_jefes_nivel_1.Y() + Grupo_jefes_nivel_1.Variable(muerte_pies_y) - Grupo_jefes_nivel_1.PointY(\"apoyo_muerte\")"
+                              ]
                             }
                           ]
                         },
@@ -68510,16 +69249,27 @@
             },
             {
               "type": {
-                "value": "Health::Health::IsDead"
+                "value": "StringObjectVariable"
               },
               "parameters": [
                 "Grupo_jefes_nivel_1",
-                "Health",
-                ""
+                "estado",
+                "=",
+                "\"muerto\""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "CameraShake::StopShaking"
+              },
+              "parameters": [
+                "",
+                "0",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -68528,150 +69278,6 @@
                 "Jefe1CamaraLiberada",
                 "True",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalX0)",
-                "\"\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalY0)",
-                "\"\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalX1)",
-                "\"Vegetación\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalY1)",
-                "\"Vegetación\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalX2)",
-                "\"Lighting\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalY2)",
-                "\"Lighting\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalX3)",
-                "\"interior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalY3)",
-                "\"interior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalX4)",
-                "\"exterior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalY4)",
-                "\"exterior_edificios\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalX5)",
-                "\"intermedia\"",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(Jefe1CamaraOriginalY5)",
-                "\"intermedia\"",
-                "0"
               ]
             },
             {
@@ -68851,6 +69457,93 @@
                 "Variable(Jefe1CamaraX) * 0.6",
                 "\"intermedia\"",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Grupo_jefes_nivel_1",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes_nivel_1",
+                        "estado",
+                        "=",
+                        "\"muriendo\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Grupo_jefes_nivel_1",
+                        "estado",
+                        "=",
+                        "\"muerto\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_1",
+                    "Resizable",
+                    "=",
+                    "Grupo_jefes_nivel_1.Variable(muerte_ancho)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_1",
+                    "Resizable",
+                    "=",
+                    "Grupo_jefes_nivel_1.Variable(muerte_alto)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_1",
+                    "=",
+                    "Grupo_jefes_nivel_1.Variable(muerte_centro_x) - Grupo_jefes_nivel_1.Width() / 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "Grupo_jefes_nivel_1",
+                    "=",
+                    "Grupo_jefes_nivel_1.Y() + Grupo_jefes_nivel_1.Variable(muerte_pies_y) - Grupo_jefes_nivel_1.PointY(\"apoyo_muerte\")"
+                  ]
+                }
               ]
             }
           ]
