@@ -2168,9 +2168,9 @@
         "userAdded": false
       },
       {
-        "file": "assets/imagenes/Idle_jefe2.png",
+        "file": "assets/imagenes/Idle_jefe2_mecanico.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Idle_jefe2.png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/imagenes/Idle_jefe2_mecanico.png\"}",
         "name": "Idle_jefe2",
         "smoothed": true,
         "userAdded": false
@@ -39827,7 +39827,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4320758552646395,
+        "zoomFactor": 0.18857475781250418,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -54787,7 +54787,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7345289539498913,
+        "zoomFactor": 0.2015067849076963,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -55449,8 +55449,8 @@
           "name": "Jugador",
           "persistentUuid": "4405c98f-3bb6-4765-a507-9be77b98377f",
           "width": 89,
-          "x": 196,
-          "y": 475,
+          "x": 9357,
+          "y": 55,
           "zOrder": 1000001,
           "numberProperties": [],
           "stringProperties": [],
