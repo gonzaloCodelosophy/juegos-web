@@ -1,7 +1,7 @@
 {
   "firstLayout": "Nivel 1",
   "gdVersion": {
-    "build": 284,
+    "build": 286,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -34054,10 +34054,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -34123,10 +34123,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -34253,10 +34253,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -56002,7 +56002,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15454864903940244,
+        "zoomFactor": 0.5100060009292814,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -56664,8 +56664,8 @@
           "name": "Jugador",
           "persistentUuid": "4405c98f-3bb6-4765-a507-9be77b98377f",
           "width": 89,
-          "x": 165,
-          "y": 293,
+          "x": 158,
+          "y": 486,
           "zOrder": 1000001,
           "numberProperties": [],
           "stringProperties": [],
@@ -56801,15 +56801,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 951,
+          "height": 1271,
           "keepRatio": true,
           "layer": "interior_edificios",
           "name": "plataforma2",
           "persistentUuid": "d1c5c9fa-3216-4079-8c4b-7fbbaf9e13f0",
-          "width": 1082,
-          "x": 3565,
-          "y": -76,
-          "zOrder": 1000019,
+          "width": 1433,
+          "x": 3418,
+          "y": -221,
+          "zOrder": 100012,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56827,23 +56827,6 @@
           "x": 4168,
           "y": 34,
           "zOrder": 100015,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 381,
-          "keepRatio": true,
-          "layer": "interior_edificios",
-          "name": "plataforma_colgante2",
-          "persistentUuid": "1c57d0d7-5cec-45dd-9c20-423f24e01328",
-          "width": 521,
-          "x": 3527,
-          "y": 127,
-          "zOrder": 100014,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57821,8 +57804,8 @@
           "name": "enemigo2",
           "persistentUuid": "a1f898b3-d13a-4c29-9004-2b815fba1f2b",
           "width": 120,
-          "x": 4326,
-          "y": 184,
+          "x": 4322,
+          "y": 171,
           "zOrder": 1000071,
           "numberProperties": [],
           "stringProperties": [],
@@ -58543,6 +58526,57 @@
           "x": 12896,
           "y": -67,
           "zOrder": 1000100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "plataforma",
+          "persistentUuid": "7da90fa8-6129-4159-9c87-a3b6792b02bf",
+          "width": 380,
+          "x": 4238,
+          "y": 342,
+          "zOrder": 1000105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
+          "keepRatio": true,
+          "layer": "",
+          "name": "plataforma",
+          "persistentUuid": "8752c7af-67ac-4a62-8e0c-c8fc3ed23fa9",
+          "width": 380,
+          "x": 3630,
+          "y": 426,
+          "zOrder": 1000105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1559,
+          "keepRatio": true,
+          "layer": "interior_edificios",
+          "name": "plataforma_colgante_larga2",
+          "persistentUuid": "0d810825-01d4-4aed-9af0-28d1790367b6",
+          "width": 521,
+          "x": 3567,
+          "y": -1059,
+          "zOrder": 100011,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -60209,15 +60243,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "NewSprite",
@@ -68240,6 +68266,29 @@
       ]
     }
   ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Tutorial"
+      },
+      {
+        "itemName": "Nivel 1"
+      },
+      {
+        "itemName": "Nivel2"
+      },
+      {
+        "itemName": "Nivel3"
+      },
+      {
+        "itemName": "Nivel 2.old"
+      },
+      {
+        "itemName": "GameOver"
+      }
+    ]
+  },
   "externalEvents": [
     {
       "associatedLayout": "Nivel 1",
@@ -103832,6 +103881,47 @@
       ]
     }
   ],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Jugador"
+      },
+      {
+        "itemName": "Entorno"
+      },
+      {
+        "itemName": "Enemigos"
+      },
+      {
+        "itemName": "Jefes"
+      },
+      {
+        "itemName": "Pausa"
+      },
+      {
+        "itemName": "Jefe_nivel_2"
+      },
+      {
+        "itemName": "Progreso - Restaurar"
+      },
+      {
+        "itemName": "Progreso - Guardar"
+      },
+      {
+        "itemName": "Jefe_nivel_1"
+      },
+      {
+        "itemName": "Jefa_final"
+      },
+      {
+        "itemName": "Mecanicas_Nivel3"
+      }
+    ]
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsFunctionsExtensions": [
     {
       "author": "",
@@ -146738,5 +146828,13 @@
         "gameEditorMode": "instances-editor"
       }
     }
-  ]
+  ],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "MenuPausa"
+      }
+    ]
+  }
 }
