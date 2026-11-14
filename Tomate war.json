@@ -17355,6 +17355,11 @@
           "name": "aplastado",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "PuntosOtorgados",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -24219,6 +24224,11 @@
           "name": "aplastado",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "PuntosOtorgados",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -28353,6 +28363,11 @@
           "name": "aplastado",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "PuntosOtorgados",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -29328,6 +29343,49 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_score",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "SCORE: 0",
+      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "SCORE: 0",
+        "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -29440,6 +29498,9 @@
         "children": [
           {
             "objectName": "texto_vidas"
+          },
+          {
+            "objectName": "texto_score"
           },
           {
             "objectName": "hud"
@@ -29769,6 +29830,18 @@
       "persistentUuid": "c89e8227-bec6-4e74-80ad-c650a8d1e544",
       "type": "number",
       "value": 5
+    },
+    {
+      "name": "Score",
+      "persistentUuid": "30902f9f-d897-49e0-8fa2-9709b770589b",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "PuntosOtorgados",
+      "persistentUuid": "8fa0bccf-d021-4dda-8978-e2f73c64fe83",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -44409,7 +44482,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3911567468148121,
+        "zoomFactor": 0.5633579909742464,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -46979,6 +47052,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "texto_score",
+          "persistentUuid": "697d8938-84aa-4ce2-abad-f1a83edb58d0",
+          "width": 0,
+          "x": 259,
+          "y": 42,
+          "zOrder": 1000110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -48322,7 +48411,6 @@
           "target": "Pausa"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -48627,7 +48715,6 @@
           "colorG": 176,
           "colorR": 228,
           "creationTime": 0,
-          "folded": true,
           "name": "Barra de vida - Jefe nivel 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -50315,6 +50402,13 @@
             "includeConfig": 0
           },
           "target": "Aplastamiento - Plataformas"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Score"
         }
       ],
       "layers": [
@@ -53744,6 +53838,22 @@
           "x": 9781,
           "y": 70,
           "zOrder": 1000095,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "texto_score",
+          "persistentUuid": "0688c9a0-4821-419f-a5de-3b64aadf2938",
+          "width": 0,
+          "x": 255,
+          "y": 37,
+          "zOrder": 1000096,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -58886,6 +58996,13 @@
             "includeConfig": 0
           },
           "target": "Aplastamiento - Plataformas"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Score"
         }
       ],
       "layers": [
@@ -71616,6 +71733,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Score"
         }
       ],
       "layers": [
@@ -79314,6 +79438,17 @@
                   ],
                   "events": [
                     {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [],
+                      "parameters": []
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -79951,7 +80086,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Corazones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -80348,7 +80482,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Lógica de armas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -80859,9 +80992,11 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Score"
         }
       ]
     },
@@ -82026,6 +82161,11 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
@@ -82035,7 +82175,8 @@
                       "parameters": [
                         "Grupo_topos",
                         "muriendo",
-                        "True"
+                        "True",
+                        ""
                       ]
                     }
                   ],
@@ -85379,11 +85520,6 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
             "if (runtimeScene.getVariables().get(\"Pausado\").getAsBoolean()) return;",
@@ -85451,6 +85587,13 @@
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Score"
         }
       ]
     },
@@ -88306,6 +88449,13 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Score"
         }
       ]
     },
@@ -110192,6 +110342,355 @@
           ]
         }
       ]
+    },
+    {
+      "associatedLayout": "Nivel 1",
+      "name": "Score",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "texto_score",
+                "Text",
+                "=",
+                "\"SCORE: \" + ToString(GlobalVariable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PuntosOtorgados",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PuntosOtorgados",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "texto_score",
+                "Text",
+                "=",
+                "\"SCORE: \" + ToString(GlobalVariable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score - enemigos comunes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const nombres = [\"enemigo\", \"enemigo2\", \"enemigo_minero\"];",
+            "const globales = runtimeScene.getGame().getVariables();",
+            "const score = globales.get(\"Score\");",
+            "",
+            "for (const nombre of nombres) {",
+            "  for (const enemigo of runtimeScene.getObjects(nombre)) {",
+            "    const variables = enemigo.getVariables();",
+            "",
+            "    if (",
+            "      variables.get(\"muriendo\").getAsBoolean() &&",
+            "      !variables.get(\"PuntosOtorgados\").getAsBoolean()",
+            "    ) {",
+            "      score.setNumber(score.getAsNumber() + 100);",
+            "      variables.get(\"PuntosOtorgados\").setBoolean(true);",
+            "    }",
+            "  }",
+            "}",
+            "",
+            "for (const texto of runtimeScene.getObjects(\"texto_score\")) {",
+            "  texto.setString(\"SCORE: \" + score.getAsNumber());",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score - General para todos los Jefes mismo puntos (FUNCIONAL)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const bosses = [",
+            "  ...runtimeScene.getObjects(\"jefe_lvl_1\"),",
+            "  ...runtimeScene.getObjects(\"jefe_nivel_2\"),",
+            "  ...runtimeScene.getObjects(\"jefa_final\"),",
+            "];",
+            "",
+            "const score = runtimeScene.getGame().getVariables().get(\"Score\");",
+            "",
+            "for (const boss of bosses) {",
+            "  const vars = boss.getVariables();",
+            "",
+            "  // Esta variable debe ser propia de cada jefe y empezar en 0.",
+            "  const otorgado = vars.get(\"PuntosOtorgados\");",
+            "",
+            "  if (boss.getBehavior(\"Health\").IsDead() && otorgado.getAsNumber() === 0) {",
+            "    score.setNumber(score.getAsNumber() + 1500);",
+            "    otorgado.setNumber(1);",
+            "  }",
+            "}",
+            "",
+            "const texto = runtimeScene.getObjects(\"texto_score\")[0];",
+            "if (texto) {",
+            "  texto.setString(\"SCORE: \" + score.getAsNumber());",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score - Jefe nivel 1 (no anda)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const bosses = runtimeScene.getObjects(\"Grupo_jefes\");",
+            "const globals = runtimeScene.getGame().getVariables();",
+            "",
+            "for (const boss of bosses) {",
+            "  const vars = boss.getVariables();",
+            "",
+            "  if (",
+            "    vars.get(\"muriendo\").getAsBoolean() &&",
+            "    vars.get(\"PuntosOtorgados\").getAsNumber() === 0",
+            "  ) {",
+            "    vars.get(\"PuntosOtorgados\").setNumber(1);",
+            "",
+            "    const score = globals.get(\"Score\").getAsNumber() + 500;",
+            "    globals.get(\"Score\").setNumber(score);",
+            "",
+            "    for (const text of runtimeScene.getObjects(\"texto_score\")) {",
+            "      text.setString(\"SCORE: \" + score);",
+            "    }",
+            "  }",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score - Jefe Nivel 2 (no anda)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const bosses = runtimeScene.getObjects(\"Grupo_jefes_nivel_2\");",
+            "const globals = runtimeScene.getGame().getVariables();",
+            "",
+            "for (const boss of bosses) {",
+            "  const vars = boss.getVariables();",
+            "",
+            "  if (",
+            "    vars.get(\"muriendo\").getAsBoolean() &&",
+            "    vars.get(\"PuntosOtorgados\").getAsNumber() === 0",
+            "  ) {",
+            "    vars.get(\"PuntosOtorgados\").setNumber(1);",
+            "",
+            "    const score = globals.get(\"Score\").getAsNumber() + 1500;",
+            "    globals.get(\"Score\").setNumber(score);",
+            "",
+            "    for (const text of runtimeScene.getObjects(\"texto_score\")) {",
+            "      text.setString(\"SCORE: \" + score);",
+            "    }",
+            "  }",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score - Jefe Nivel 3 (no anda)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const bosses = runtimeScene.getObjects(\"Jefa_final\");",
+            "const globals = runtimeScene.getGame().getVariables();",
+            "",
+            "for (const boss of bosses) {",
+            "  const vars = boss.getVariables();",
+            "",
+            "  if (",
+            "    vars.get(\"muriendo\").getAsBoolean() &&",
+            "    vars.get(\"PuntosOtorgados\").getAsNumber() === 0",
+            "  ) {",
+            "    vars.get(\"PuntosOtorgados\").setNumber(1);",
+            "",
+            "    const score = globals.get(\"Score\").getAsNumber() + 5000;",
+            "    globals.get(\"Score\").setNumber(score);",
+            "",
+            "    for (const text of runtimeScene.getObjects(\"texto_score\")) {",
+            "      text.setString(\"SCORE: \" + score);",
+            "    }",
+            "  }",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score - Jugador"
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const globales = runtimeScene.getGame().getVariables();",
+            "const variableScore = globales.get(\"Score\");",
+            "let score = variableScore.getAsNumber();",
+            "",
+            "// Penalización por muerte: una vez por vida",
+            "for (const jugador of runtimeScene.getObjects(\"Jugador\")) {",
+            "  const varsJugador = jugador.getVariables();",
+            "  const muriendo = varsJugador.get(\"muriendo\").getAsBoolean();",
+            "  const penalizacionAplicada =",
+            "    varsJugador.get(\"PenalizacionScoreAplicada\").getAsBoolean();",
+            "",
+            "  if (muriendo && !penalizacionAplicada) {",
+            "    score = Math.max(0, score - 250);",
+            "    varsJugador.get(\"PenalizacionScoreAplicada\").setBoolean(true);",
+            "  }",
+            "}",
+            "",
+            "// Garrote y escopeta: se suman una sola vez al recoger cada arma",
+            "if (",
+            "  globales.get(\"ProgresoGarrote\").getAsNumber() > 0 &&",
+            "  globales.get(\"ScoreGarroteRegistrado\").getAsNumber() === 0",
+            ") {",
+            "  score += 200;",
+            "  globales.get(\"ScoreGarroteRegistrado\").setNumber(1);",
+            "}",
+            "",
+            "if (",
+            "  globales.get(\"ProgresoEscopeta\").getAsNumber() > 0 &&",
+            "  globales.get(\"ScoreEscopetaRegistrado\").getAsNumber() === 0",
+            ") {",
+            "  score += 300;",
+            "  globales.get(\"ScoreEscopetaRegistrado\").setNumber(1);",
+            "}",
+            "",
+            "// Fragmentos de corazón: suma por cada pieza recogida",
+            "const fragmentos = globales.get(\"ProgresoFragmentos\").getAsNumber();",
+            "let fragmentosYaContados =",
+            "  globales.get(\"FragmentosScoreRegistrados\").getAsNumber();",
+            "",
+            "while (fragmentosYaContados < fragmentos) {",
+            "  score += 100;",
+            "  fragmentosYaContados++;",
+            "}",
+            "",
+            "globales",
+            "  .get(\"FragmentosScoreRegistrados\")",
+            "  .setNumber(fragmentosYaContados);",
+            "",
+            "// Guardar el total y actualizar el HUD",
+            "variableScore.setNumber(score);",
+            "",
+            "for (const texto of runtimeScene.getObjects(\"texto_score\")) {",
+            "  texto.setString(\"SCORE: \" + score);",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ]
     }
   ],
   "externalEventsFolderStructure": {
@@ -110238,6 +110737,9 @@
       },
       {
         "itemName": "Checkpoints"
+      },
+      {
+        "itemName": "Score"
       }
     ]
   },
