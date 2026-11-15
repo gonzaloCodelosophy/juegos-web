@@ -29875,7 +29875,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000006,
+        "zoomFactor": 0.5290357402156843,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -29908,6 +29908,7 @@
         },
         {
           "name": "BloquearInput",
+          "persistentUuid": "f1b3d939-04ea-4391-b77c-dcba3a161fa3",
           "type": "boolean",
           "value": false
         }
@@ -31297,7 +31298,7 @@
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "texto_historia",
+                "texto_continuar",
                 "Opacity",
                 "-",
                 "255 / 1.5 * TimeDelta()"
@@ -31308,10 +31309,18 @@
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "texto_continuar",
+                "texto_historia",
                 "Opacity",
                 "-",
                 "255 / 1.5 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
               ]
             },
             {
@@ -31351,6 +31360,14 @@
                     "FaseIntro",
                     "=",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "texto_continuar"
                   ]
                 }
               ]
